@@ -26,8 +26,16 @@ end
 instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
 using_flatten(instruments)
 
-def using_delete(array, int)
+def using_delete(array, string)
+  array.delete(string)
+end
+instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
+name = "Steven"
+using_delete(instructors, name)
+
+
+def using_delete_at(array, int)
  array.delete(int)
  end
 famous_robots = ["Johnny 5", "R2D2", "Robocop"]
-using_delete(famous_robots, 2)
+using_delete_at(famous_robots, 2)
