@@ -35,8 +35,7 @@ using_delete(instructors, name)
 
 
 def using_delete_at(array, int)
-  int = int
- deleted_robot = array.delete(int)
+array.delete_at(int)
  end
 famous_robots = ["Johnny 5", "R2D2", "Robocop"]
 using_delete_at(famous_robots, 2)
